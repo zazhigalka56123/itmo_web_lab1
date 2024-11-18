@@ -1,0 +1,102 @@
+h1 {
+    color: #5c00fc;
+    font: 50px "sans-serif";
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#mainTable {
+    width: 100%;
+    border-collapse: separate;
+    padding: 10px;
+    border-spacing: 10px;
+    text-align: center;
+    table-layout: auto;
+}
+
+label {
+    display: compact;
+    text-align: center;
+    font: 20px "Comic Sans MS";
+    color: #5c00fc;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+th {
+    border: 1px solid black;
+    padding-left: 8px;
+    text-align: center;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 4px solid #5c00fc; 
+    border-radius: 5px;
+    color: #c900ff;
+    font: 16px "Comic Sans MS";
+    display: block;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+input[type="number"]:focus {
+    border-color: #c900ff;
+    box-shadow: 0 0 5px rgba(201, 0, 255, 0.66);
+    outline: none;
+}
+
+input[type="number"]:invalid {
+    border-color: #ff0000;
+}
+
+#tdInput {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100%;
+    padding: 20px;
+    vertical-align: top;
+    horiz-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px;
+}
+
+#tdImage {
+    padding: 0;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#tdTable {
+    vertical-align: top;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    horiz-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#tdTable {
+    max-width: none;
+}
+
+
+body {
+    background-image: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

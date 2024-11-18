@@ -1,0 +1,18 @@
+#table {
+    width: 100%; /* Ширина таблицы 100% от родительского элемента */
+    border-collapse: collapse; /* Убираем двойные границы между ячейками */
+}
+
+#table th,
+#table td {
+    padding: 8px; /* Отступы внутри ячеек */
+    text-align: left; /* Выравнивание текста по левому краю */
+    border: 2px solid #5c00fc; /* Легкая граница вокруг ячеек */
+    background-color: white;
+    font: 14px "Comic Sans MS";
+}
+
+#table th {
+    background-color: #c0bcbc; /* Фон для заголовков таблицы */
+    font-weight: bold; /* Жирный шрифт для заголовков */
+}

@@ -1,0 +1,18 @@
+#send {
+    
+    background-color: #5c00fc; 
+    width: 100%;
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px; 
+    font: 16px "Comic Sans MS";
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+
+#send:hover {
+    background-color: #1bff00; 
+    box-shadow: 0 0 5px rgba(38, 36, 36, 0.66);
+    transform: translateY(-2px); 
+}
